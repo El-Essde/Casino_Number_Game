@@ -36,7 +36,7 @@ int main()
 
     std::cout << "\nGood evening, " << name << std::endl;
     std::cout << "==============================\n\n";
-    std::cout << "WELCOME TO VIRTUAL BACCARAT TABLE" << std::endl;
+    std::cout << "WELCOME TO VIRTUAL EL Essde TABLE" << std::endl;
     std::cout << "=================================" << std::endl;
 
     do{ //main do-while loop
@@ -176,7 +176,7 @@ bool playAgain(char x,int money){
         }
     }else{
 
-        std::cout << "Insufficient fund!";
+        std::cout << "Insufficient fund!\n"<< "THANK YOU FOR PLAYING!";
         return false;
     }
 
